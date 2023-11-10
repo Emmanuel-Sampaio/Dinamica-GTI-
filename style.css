@@ -82,7 +82,7 @@ nav a:hover {
 .banner .btn:hover {
     background-color: rgb(255, 2, 2);
 }
-.vantagens {
+#somos {
     display: flex;
     justify-content: space-around;
     padding: 40px 0;
@@ -113,21 +113,38 @@ nav a:hover {
 .vantagem p {
     font-size: 16px;
 }
-.depoimentos {
-    background-image: url(imagens/fogos.png);
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 0;
-    background-color: #f7f7f7;
-}
-.depoimento {
+#Feed{
+    text-align: center;
+    flex-direction: column;
     
+    background-image: url(imagens/fogos.png);
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    position: relative;
+
+
+}
+#Feed h1{
     text-align: center;
 }
-.depoimento img {
+#Feed div{
+    display: inline-block;
+    margin: 80px;
+}
+
+.depoimento {
+    text-align: center;
+   
+}
+#Feed img {
+    display: inline-block;
+    margin-right: 10px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    
+
 }
 .depoimento h3 {
     font-size: 18px;
@@ -136,37 +153,37 @@ nav a:hover {
 .depoimento p {
     font-size: 16px;
 }
-.form-orcamento {
+#Orcamentos {
     background-image: url(imagens/fogos.png);
     text-align: center;
     padding: 40px 0;
     background-color: #fff;
 }
-.form-orcamento h2 {
+#Orcamentos h2 {
 
     font-size: 24px;
     margin: 20px 0;
 }
-.form-orcamento form {
+#Orcamentos form {
     background-color: #ffffff;
     max-width: 400px;
     margin: 0 auto;
 }
-.form-orcamento label {
+#Orcamentos label {
     display: block;
     margin: 10px 0;
     font-size: 18px;
 }
 
-.form-orcamento input,
-.form-orcamento textarea {
+#Orcamentos input,
+#Orcamentos textarea {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.form-orcamento input[type="submit"] {
+#Orcamentos input[type="submit"] {
     background-color: rgb(172, 84, 1);
     color: #fff;
     border: none;
@@ -175,7 +192,7 @@ nav a:hover {
     border-radius: 5px;
     cursor: pointer;
 }
-.form-orcamento input[type="submit"]:hover {
+#Orcamentos input[type="submit"]:hover {
     background-color: rgb(172, 84, 1);
 }
 .partefinal{
